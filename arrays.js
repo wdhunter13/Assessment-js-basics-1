@@ -46,15 +46,17 @@ bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
  answers = []
 
-for (i = 1; i <= bigOrSmallArray.length; i++) {
-  if (bigOrSmallArray[i] > 100) {
-   answers = bigOrSmallArray.push("big")
+ for (i = 0; i < bigOrSmallArray.length; i++) {
+  if (bigOrSmallArray[i] > 100) {  
+   answers.push("big")
    console.log(answers)
-  } else {(bigOrSmallArray[i] < 100)
-    answers = bigOrSmallArray.push("small")
+  } else {
+    answers.push("small")
     console.log(answers)
   }
 }
+
+
 
 
 
