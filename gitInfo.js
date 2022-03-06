@@ -3,6 +3,8 @@
     You'll provide the command as well as what it does. 
 */
 
+const { setFlagsFromString } = require("v8")
+
 //////////////////PROBLEM 1////////////////////
 /*
     Create a variable called 'gitDefinition'.
@@ -10,6 +12,8 @@
 */
 
 //CODE HERE
+
+gitDefinition = ("A control system used for tracking changes in computer files")
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -19,6 +23,8 @@
 
 //CODE HERE
 
+gitHubDefinition = ("software development platform used for setFlagsFromString, tracking, and collaborating on software project")
+
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,6 +32,8 @@
 */
 
 //CODE HERE
+
+gitInitDefinition =  ("Initializes a local repository")
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -35,6 +43,8 @@
 
 //CODE HERE
 
+gitCloneDefinition = ("Create a clone of an existing repository")
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +52,8 @@
 */
 
 //CODE HERE
+
+gitStatusDefinition = ("Tells you information about this repo")
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +66,9 @@
 
 //CODE HERE
 
+gitAddDefinition = ("Adds files to be tracked")
+gitAddCode = (" git add . ")
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +80,9 @@
 
 //CODE HERE
 
+gitCommitDefinition = ("Takes a snapshot of files you are tracking")
+gitCommitCode = (` git commit -am "Initial commit" `)
+
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +91,5 @@
 */
 
 //CODE HERE
+
+gitPushDefinition = ("Allows you to send the the commits from your local repository to a remote repository")

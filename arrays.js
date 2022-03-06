@@ -49,7 +49,6 @@ bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
  for (i = 0; i < bigOrSmallArray.length; i++) {
   if (bigOrSmallArray[i] > 100) {  
    answers.push("big")
-   console.log(answers)
   } else {
     answers.push("small")
     console.log(answers)
